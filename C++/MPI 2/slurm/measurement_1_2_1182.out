@@ -1,0 +1,31 @@
+=== Configuration (1, 2, 1182) - 2 Processes ===
+Date: Tue Jun 17 19:25:43 CEST 2025
+Node: ant17
+
+=== Hardware Specifications ===
+CPU Information:
+CPU(s):                               48
+On-line CPU(s) list:                  0-47
+Model name:                           AMD EPYC 7443 24-Core Processor
+Thread(s) per core:                   2
+Core(s) per socket:                   24
+Socket(s):                            1
+CPU(s) scaling MHz:                   71%
+NUMA node0 CPU(s):                    0-47
+
+Memory Information:
+               total        used        free      shared  buff/cache   available
+Mem:           125Gi       5.2Gi       119Gi       2.4Gi       4.0Gi       119Gi
+Swap:          4.0Gi       2.0Mi       4.0Gi
+
+Node Details:
+   CPUAlloc=48 CPUEfctv=48 CPUTot=48 CPULoad=0.00
+   AvailableFeatures=epyc3
+   ActiveFeatures=epyc3
+   RealMemory=120536 AllocMem=98304 FreeMem=122410 Sockets=1 Boards=1
+
+=== Performance Measurement ===
+Benchmark 1: srun --mpi=pmi2 ./partdiff 2 2 1182 2 80
+  Time (mean ± σ):     30.934 s ±  0.026 s    [User: 0.004 s, System: 0.006 s]
+  Range (min … max):   30.904 s … 30.951 s    3 runs
+ 

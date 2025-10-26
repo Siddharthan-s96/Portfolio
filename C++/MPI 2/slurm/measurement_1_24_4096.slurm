@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --exclusive
+#SBATCH --partition=vl-parcio
+#SBATCH --constraint=epyc3
+#SBATCH --job-name=measurement_1_24_4096
+#SBATCH --output=measurement_1_24_4096.out
+#SBATCH --error=measurement_1_24_4096.err
+
+. /opt/spack/pp-2025/env.sh
+module load hyperfine
+
+echo "=== Configuration (1, 24, 4096) - 24 Processes ==="
+echo "Date: $(date)"
+echo "Node: $(hostname)"
+echo ""
+
+echo "=== Hardware Specifications ==="
+echo "CPU Information:"
+lscpu | grep -E "Model name|CPU\(s\)|Thread|Core|Socket|Cache"
+echo ""
+echo "Memory Information:"
+free -h
+echo ""
+echo "Node Details:"
+scontrol show node $(hostname) | grep -E "CPUTot|RealMemory|Features"
+echo ""
+
+echo "=== Performance Measurement ==="
+cd ../pde
+hyperfine -r 3 'srun --mpi=pmi2 ./partdiff 24 2 4096 2 80'

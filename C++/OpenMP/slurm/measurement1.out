@@ -1,0 +1,292 @@
+Benchmark 1: ../pde/partdiff 1 2 4096 2 5
+  Time (mean ± σ):     47.767 s ±  0.018 s    [User: 46.554 s, System: 1.059 s]
+  Range (min … max):   47.750 s … 47.785 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=1 ../pde/partdiff-row 1 2 4096 2 5
+  Time (mean ± σ):     47.452 s ±  0.023 s    [User: 46.269 s, System: 1.031 s]
+  Range (min … max):   47.426 s … 47.471 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=2 ../pde/partdiff-row 2 2 4096 2 5
+  Time (mean ± σ):     24.396 s ±  0.032 s    [User: 46.290 s, System: 1.071 s]
+  Range (min … max):   24.373 s … 24.432 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=3 ../pde/partdiff-row 3 2 4096 2 5
+  Time (mean ± σ):     16.706 s ±  0.035 s    [User: 46.349 s, System: 1.061 s]
+  Range (min … max):   16.680 s … 16.745 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=4 ../pde/partdiff-row 4 2 4096 2 5
+  Time (mean ± σ):     12.883 s ±  0.060 s    [User: 46.412 s, System: 1.063 s]
+  Range (min … max):   12.821 s … 12.942 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=5 ../pde/partdiff-row 5 2 4096 2 5
+  Time (mean ± σ):     10.602 s ±  0.015 s    [User: 46.561 s, System: 1.069 s]
+  Range (min … max):   10.591 s … 10.618 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=6 ../pde/partdiff-row 6 2 4096 2 5
+  Time (mean ± σ):      9.130 s ±  0.134 s    [User: 46.932 s, System: 1.059 s]
+  Range (min … max):    9.041 s …  9.284 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=7 ../pde/partdiff-row 7 2 4096 2 5
+  Time (mean ± σ):      7.996 s ±  0.046 s    [User: 47.055 s, System: 1.060 s]
+  Range (min … max):    7.946 s …  8.035 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=8 ../pde/partdiff-row 8 2 4096 2 5
+  Time (mean ± σ):      7.186 s ±  0.033 s    [User: 47.360 s, System: 1.048 s]
+  Range (min … max):    7.149 s …  7.214 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=9 ../pde/partdiff-row 9 2 4096 2 5
+  Time (mean ± σ):      6.658 s ±  0.047 s    [User: 48.407 s, System: 1.064 s]
+  Range (min … max):    6.604 s …  6.695 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=10 ../pde/partdiff-row 10 2 4096 2 5
+  Time (mean ± σ):      6.167 s ±  0.019 s    [User: 48.647 s, System: 1.073 s]
+  Range (min … max):    6.146 s …  6.183 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=11 ../pde/partdiff-row 11 2 4096 2 5
+  Time (mean ± σ):      5.741 s ±  0.010 s    [User: 48.866 s, System: 1.074 s]
+  Range (min … max):    5.729 s …  5.747 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=12 ../pde/partdiff-row 12 2 4096 2 5
+  Time (mean ± σ):      5.398 s ±  0.027 s    [User: 49.150 s, System: 1.074 s]
+  Range (min … max):    5.380 s …  5.430 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=13 ../pde/partdiff-row 13 2 4096 2 5
+  Time (mean ± σ):      5.054 s ±  0.036 s    [User: 49.272 s, System: 1.067 s]
+  Range (min … max):    5.031 s …  5.095 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=14 ../pde/partdiff-row 14 2 4096 2 5
+  Time (mean ± σ):      4.818 s ±  0.028 s    [User: 49.537 s, System: 1.069 s]
+  Range (min … max):    4.788 s …  4.843 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=15 ../pde/partdiff-row 15 2 4096 2 5
+  Time (mean ± σ):      4.598 s ±  0.039 s    [User: 49.686 s, System: 1.069 s]
+  Range (min … max):    4.554 s …  4.628 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=16 ../pde/partdiff-row 16 2 4096 2 5
+  Time (mean ± σ):      4.381 s ±  0.030 s    [User: 49.883 s, System: 1.049 s]
+  Range (min … max):    4.361 s …  4.415 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=17 ../pde/partdiff-row 17 2 4096 2 5
+  Time (mean ± σ):      4.266 s ±  0.012 s    [User: 50.480 s, System: 1.065 s]
+  Range (min … max):    4.258 s …  4.280 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=18 ../pde/partdiff-row 18 2 4096 2 5
+  Time (mean ± σ):      4.118 s ±  0.044 s    [User: 51.132 s, System: 1.065 s]
+  Range (min … max):    4.070 s …  4.157 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=19 ../pde/partdiff-row 19 2 4096 2 5
+  Time (mean ± σ):      4.050 s ±  0.041 s    [User: 52.105 s, System: 1.091 s]
+  Range (min … max):    4.023 s …  4.097 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=20 ../pde/partdiff-row 20 2 4096 2 5
+  Time (mean ± σ):      3.908 s ±  0.056 s    [User: 52.956 s, System: 1.055 s]
+  Range (min … max):    3.871 s …  3.972 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=21 ../pde/partdiff-row 21 2 4096 2 5
+  Time (mean ± σ):      3.809 s ±  0.006 s    [User: 53.722 s, System: 1.061 s]
+  Range (min … max):    3.805 s …  3.816 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=22 ../pde/partdiff-row 22 2 4096 2 5
+  Time (mean ± σ):      3.791 s ±  0.025 s    [User: 54.604 s, System: 1.083 s]
+  Range (min … max):    3.774 s …  3.820 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=23 ../pde/partdiff-row 23 2 4096 2 5
+  Time (mean ± σ):      3.721 s ±  0.033 s    [User: 55.595 s, System: 1.078 s]
+  Range (min … max):    3.701 s …  3.758 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=24 ../pde/partdiff-row 24 2 4096 2 5
+  Time (mean ± σ):      3.636 s ±  0.010 s    [User: 56.279 s, System: 1.073 s]
+  Range (min … max):    3.624 s …  3.643 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=1 ../pde/partdiff-column 1 2 4096 2 5
+  Time (mean ± σ):     47.717 s ±  0.049 s    [User: 46.498 s, System: 1.071 s]
+  Range (min … max):   47.662 s … 47.751 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=2 ../pde/partdiff-column 2 2 4096 2 5
+  Time (mean ± σ):     24.641 s ±  0.165 s    [User: 46.649 s, System: 1.075 s]
+  Range (min … max):   24.545 s … 24.832 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=3 ../pde/partdiff-column 3 2 4096 2 5
+  Time (mean ± σ):     16.770 s ±  0.040 s    [User: 46.586 s, System: 1.042 s]
+  Range (min … max):   16.739 s … 16.815 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=4 ../pde/partdiff-column 4 2 4096 2 5
+  Time (mean ± σ):     12.872 s ±  0.003 s    [User: 46.559 s, System: 1.046 s]
+  Range (min … max):   12.869 s … 12.875 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=5 ../pde/partdiff-column 5 2 4096 2 5
+  Time (mean ± σ):     10.589 s ±  0.034 s    [User: 46.741 s, System: 1.063 s]
+  Range (min … max):   10.563 s … 10.628 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=6 ../pde/partdiff-column 6 2 4096 2 5
+  Time (mean ± σ):      9.101 s ±  0.029 s    [User: 46.968 s, System: 1.069 s]
+  Range (min … max):    9.070 s …  9.127 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=7 ../pde/partdiff-column 7 2 4096 2 5
+  Time (mean ± σ):      8.021 s ±  0.038 s    [User: 47.323 s, System: 1.058 s]
+  Range (min … max):    7.999 s …  8.065 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=8 ../pde/partdiff-column 8 2 4096 2 5
+  Time (mean ± σ):      7.216 s ±  0.034 s    [User: 47.570 s, System: 1.057 s]
+  Range (min … max):    7.177 s …  7.237 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=9 ../pde/partdiff-column 9 2 4096 2 5
+  Time (mean ± σ):      6.630 s ±  0.059 s    [User: 48.217 s, System: 1.055 s]
+  Range (min … max):    6.571 s …  6.688 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=10 ../pde/partdiff-column 10 2 4096 2 5
+  Time (mean ± σ):      6.168 s ±  0.040 s    [User: 48.934 s, System: 1.061 s]
+  Range (min … max):    6.123 s …  6.200 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=11 ../pde/partdiff-column 11 2 4096 2 5
+  Time (mean ± σ):      5.702 s ±  0.014 s    [User: 49.080 s, System: 1.044 s]
+  Range (min … max):    5.691 s …  5.717 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=12 ../pde/partdiff-column 12 2 4096 2 5
+  Time (mean ± σ):      5.450 s ±  0.100 s    [User: 49.447 s, System: 1.065 s]
+  Range (min … max):    5.348 s …  5.548 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=13 ../pde/partdiff-column 13 2 4096 2 5
+  Time (mean ± σ):      5.055 s ±  0.010 s    [User: 49.566 s, System: 1.049 s]
+  Range (min … max):    5.045 s …  5.066 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=14 ../pde/partdiff-column 14 2 4096 2 5
+  Time (mean ± σ):      4.847 s ±  0.008 s    [User: 49.728 s, System: 1.074 s]
+  Range (min … max):    4.839 s …  4.856 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=15 ../pde/partdiff-column 15 2 4096 2 5
+  Time (mean ± σ):      4.579 s ±  0.036 s    [User: 49.864 s, System: 1.049 s]
+  Range (min … max):    4.554 s …  4.620 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=16 ../pde/partdiff-column 16 2 4096 2 5
+  Time (mean ± σ):      4.388 s ±  0.036 s    [User: 50.020 s, System: 1.058 s]
+  Range (min … max):    4.360 s …  4.429 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=17 ../pde/partdiff-column 17 2 4096 2 5
+  Time (mean ± σ):      4.211 s ±  0.012 s    [User: 50.576 s, System: 1.044 s]
+  Range (min … max):    4.198 s …  4.221 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=18 ../pde/partdiff-column 18 2 4096 2 5
+  Time (mean ± σ):      4.148 s ±  0.057 s    [User: 51.344 s, System: 1.061 s]
+  Range (min … max):    4.090 s …  4.203 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=19 ../pde/partdiff-column 19 2 4096 2 5
+  Time (mean ± σ):      4.012 s ±  0.073 s    [User: 52.229 s, System: 1.068 s]
+  Range (min … max):    3.969 s …  4.096 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=20 ../pde/partdiff-column 20 2 4096 2 5
+  Time (mean ± σ):      3.929 s ±  0.048 s    [User: 52.924 s, System: 1.059 s]
+  Range (min … max):    3.875 s …  3.964 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=21 ../pde/partdiff-column 21 2 4096 2 5
+  Time (mean ± σ):      3.854 s ±  0.009 s    [User: 53.804 s, System: 1.071 s]
+  Range (min … max):    3.848 s …  3.864 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=22 ../pde/partdiff-column 22 2 4096 2 5
+  Time (mean ± σ):      3.763 s ±  0.068 s    [User: 54.770 s, System: 1.068 s]
+  Range (min … max):    3.711 s …  3.839 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=23 ../pde/partdiff-column 23 2 4096 2 5
+  Time (mean ± σ):      3.674 s ±  0.022 s    [User: 55.348 s, System: 1.050 s]
+  Range (min … max):    3.660 s …  3.699 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=24 ../pde/partdiff-column 24 2 4096 2 5
+  Time (mean ± σ):      3.649 s ±  0.019 s    [User: 56.348 s, System: 1.072 s]
+  Range (min … max):    3.632 s …  3.669 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=1 ../pde/partdiff-element 1 2 4096 2 5
+  Time (mean ± σ):     92.548 s ±  0.100 s    [User: 91.201 s, System: 1.053 s]
+  Range (min … max):   92.433 s … 92.610 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=2 ../pde/partdiff-element 2 2 4096 2 5
+  Time (mean ± σ):     47.691 s ±  0.013 s    [User: 91.306 s, System: 1.088 s]
+  Range (min … max):   47.676 s … 47.698 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=3 ../pde/partdiff-element 3 2 4096 2 5
+  Time (mean ± σ):     32.619 s ±  0.019 s    [User: 91.352 s, System: 1.080 s]
+  Range (min … max):   32.602 s … 32.639 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=4 ../pde/partdiff-element 4 2 4096 2 5
+  Time (mean ± σ):     25.054 s ±  0.041 s    [User: 91.397 s, System: 1.058 s]
+  Range (min … max):   25.018 s … 25.098 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=5 ../pde/partdiff-element 5 2 4096 2 5
+  Time (mean ± σ):     20.377 s ±  0.048 s    [User: 91.437 s, System: 1.066 s]
+  Range (min … max):   20.323 s … 20.416 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=6 ../pde/partdiff-element 6 2 4096 2 5
+  Time (mean ± σ):     17.229 s ±  0.042 s    [User: 91.950 s, System: 1.059 s]
+  Range (min … max):   17.181 s … 17.258 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=7 ../pde/partdiff-element 7 2 4096 2 5
+  Time (mean ± σ):     14.980 s ±  0.031 s    [User: 92.464 s, System: 1.058 s]
+  Range (min … max):   14.944 s … 15.002 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=8 ../pde/partdiff-element 8 2 4096 2 5
+  Time (mean ± σ):     13.428 s ±  0.019 s    [User: 93.215 s, System: 1.038 s]
+  Range (min … max):   13.413 s … 13.450 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=9 ../pde/partdiff-element 9 2 4096 2 5
+  Time (mean ± σ):     12.374 s ±  0.040 s    [User: 94.647 s, System: 1.055 s]
+  Range (min … max):   12.329 s … 12.404 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=10 ../pde/partdiff-element 10 2 4096 2 5
+  Time (mean ± σ):     11.386 s ±  0.009 s    [User: 95.469 s, System: 1.082 s]
+  Range (min … max):   11.375 s … 11.392 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=11 ../pde/partdiff-element 11 2 4096 2 5
+  Time (mean ± σ):     10.490 s ±  0.026 s    [User: 95.946 s, System: 1.063 s]
+  Range (min … max):   10.461 s … 10.512 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=12 ../pde/partdiff-element 12 2 4096 2 5
+  Time (mean ± σ):      9.741 s ±  0.038 s    [User: 96.208 s, System: 1.062 s]
+  Range (min … max):    9.697 s …  9.765 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=13 ../pde/partdiff-element 13 2 4096 2 5
+  Time (mean ± σ):      9.152 s ±  0.013 s    [User: 96.744 s, System: 1.069 s]
+  Range (min … max):    9.141 s …  9.166 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=14 ../pde/partdiff-element 14 2 4096 2 5
+  Time (mean ± σ):      8.582 s ±  0.035 s    [User: 96.961 s, System: 1.063 s]
+  Range (min … max):    8.542 s …  8.607 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=15 ../pde/partdiff-element 15 2 4096 2 5
+  Time (mean ± σ):      8.112 s ±  0.032 s    [User: 97.269 s, System: 1.061 s]
+  Range (min … max):    8.084 s …  8.148 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=16 ../pde/partdiff-element 16 2 4096 2 5
+  Time (mean ± σ):      7.697 s ±  0.028 s    [User: 97.633 s, System: 1.061 s]
+  Range (min … max):    7.676 s …  7.729 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=17 ../pde/partdiff-element 17 2 4096 2 5
+  Time (mean ± σ):      7.390 s ±  0.034 s    [User: 98.120 s, System: 1.074 s]
+  Range (min … max):    7.366 s …  7.429 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=18 ../pde/partdiff-element 18 2 4096 2 5
+  Time (mean ± σ):      7.033 s ±  0.035 s    [User: 98.367 s, System: 1.052 s]
+  Range (min … max):    7.004 s …  7.072 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=19 ../pde/partdiff-element 19 2 4096 2 5
+  Time (mean ± σ):      6.770 s ±  0.023 s    [User: 98.654 s, System: 1.080 s]
+  Range (min … max):    6.745 s …  6.791 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=20 ../pde/partdiff-element 20 2 4096 2 5
+  Time (mean ± σ):      6.529 s ±  0.005 s    [User: 99.206 s, System: 1.061 s]
+  Range (min … max):    6.524 s …  6.534 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=21 ../pde/partdiff-element 21 2 4096 2 5
+  Time (mean ± σ):      6.333 s ±  0.047 s    [User: 100.412 s, System: 1.072 s]
+  Range (min … max):    6.293 s …  6.385 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=22 ../pde/partdiff-element 22 2 4096 2 5
+  Time (mean ± σ):      6.114 s ±  0.006 s    [User: 100.489 s, System: 1.067 s]
+  Range (min … max):    6.108 s …  6.119 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=23 ../pde/partdiff-element 23 2 4096 2 5
+  Time (mean ± σ):      5.920 s ±  0.029 s    [User: 101.641 s, System: 1.074 s]
+  Range (min … max):    5.897 s …  5.952 s    3 runs
+ 
+Benchmark 1: OMP_NUM_THREADS=24 ../pde/partdiff-element 24 2 4096 2 5
+  Time (mean ± σ):      5.772 s ±  0.029 s    [User: 102.853 s, System: 1.073 s]
+  Range (min … max):    5.752 s …  5.805 s    3 runs
+ 

@@ -1,0 +1,31 @@
+=== Configuration (8, 192, 11585) - 192 Processes on 8 Nodes ===
+Date: Wed Jun 18 19:56:45 CEST 2025
+Nodes: ant17 ant18 ant19 ant20 ant21 ant22 ant23 ant24 
+
+=== Hardware Specifications ===
+CPU Information:
+CPU(s):                               48
+On-line CPU(s) list:                  0-47
+Model name:                           AMD EPYC 7443 24-Core Processor
+Thread(s) per core:                   2
+Core(s) per socket:                   24
+Socket(s):                            1
+CPU(s) scaling MHz:                   75%
+NUMA node0 CPU(s):                    0-47
+
+Memory Information:
+               total        used        free      shared  buff/cache   available
+Mem:           125Gi       5.3Gi       118Gi       2.4Gi       4.7Gi       119Gi
+Swap:          4.0Gi       2.0Mi       4.0Gi
+
+Node Details:
+   CPUAlloc=48 CPUEfctv=48 CPUTot=48 CPULoad=0.33
+   AvailableFeatures=epyc3
+   ActiveFeatures=epyc3
+   RealMemory=120536 AllocMem=98304 FreeMem=121633 Sockets=1 Boards=1
+
+=== Performance Measurement ===
+Benchmark 1: srun --mpi=pmi2 ./partdiff 192 2 11585 2 80
+  Time (mean ± σ):     49.255 s ± 15.207 s    [User: 0.006 s, System: 0.014 s]
+  Range (min … max):   40.295 s … 66.813 s    3 runs
+ 

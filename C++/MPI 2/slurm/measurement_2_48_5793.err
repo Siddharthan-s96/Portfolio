@@ -1,0 +1,2 @@
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (39.616 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.

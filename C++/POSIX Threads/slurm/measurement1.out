@@ -1,0 +1,75 @@
+===== Hardware Info =====
+ant13
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               48
+On-line CPU(s) list:                  0-47
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD EPYC 7443 24-Core Processor
+CPU family:                           25
+Model:                                1
+Thread(s) per core:                   2
+Core(s) per socket:                   24
+Socket(s):                            1
+Stepping:                             1
+Frequency boost:                      enabled
+CPU(s) scaling MHz:                   71%
+CPU max MHz:                          4035.6440
+CPU min MHz:                          1500.0000
+BogoMIPS:                             5699.54
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm debug_swap
+Virtualization:                       AMD-V
+L1d cache:                            768 KiB (24 instances)
+L1i cache:                            768 KiB (24 instances)
+L2 cache:                             12 MiB (24 instances)
+L3 cache:                             128 MiB (4 instances)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-47
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Mitigation; Safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+               total        used        free      shared  buff/cache   available
+Mem:           125Gi       3.4Gi       121Gi       727Mi       2.1Gi       121Gi
+Swap:          4.0Gi       0.0Ki       4.0Gi
+=========================
+Benchmark 1: ../pde/partdiff 1 2 4096 2 75
+  Time (mean ± σ):     694.134 s ±  0.628 s    [User: 690.839 s, System: 1.067 s]
+  Range (min … max):   693.477 s … 694.729 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff 2 2 4096 2 75
+  Time (mean ± σ):     350.342 s ±  0.097 s    [User: 695.028 s, System: 1.056 s]
+  Range (min … max):   350.277 s … 350.453 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff 3 2 4096 2 75
+  Time (mean ± σ):     234.183 s ±  0.065 s    [User: 695.501 s, System: 1.063 s]
+  Range (min … max):   234.118 s … 234.248 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff 6 2 4096 2 75
+  Time (mean ± σ):     118.896 s ±  0.045 s    [User: 701.870 s, System: 1.062 s]
+  Range (min … max):   118.863 s … 118.947 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff 12 2 4096 2 75
+  Time (mean ± σ):     63.094 s ±  0.118 s    [User: 737.189 s, System: 1.065 s]
+  Range (min … max):   62.974 s … 63.210 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff 18 2 4096 2 75
+  Time (mean ± σ):     44.354 s ±  0.024 s    [User: 770.284 s, System: 1.093 s]
+  Range (min … max):   44.327 s … 44.373 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff 24 2 4096 2 75
+  Time (mean ± σ):     37.012 s ±  0.052 s    [User: 845.324 s, System: 1.099 s]
+  Range (min … max):   36.955 s … 37.058 s    3 runs 
+ 

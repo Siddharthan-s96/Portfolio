@@ -1,0 +1,52 @@
+Benchmark 1: ../pde/partdiff-row 24 2 1 2 5000
+  Time (mean ± σ):      46.5 ms ±   2.9 ms    [User: 2055.4 ms, System: 21.4 ms]
+  Range (min … max):    43.3 ms …  49.0 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 2 2 5000
+  Time (mean ± σ):      45.2 ms ±   3.0 ms    [User: 2041.2 ms, System: 13.7 ms]
+  Range (min … max):    42.9 ms …  48.6 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 4 2 5000
+  Time (mean ± σ):      47.4 ms ±   0.4 ms    [User: 2153.2 ms, System: 6.2 ms]
+  Range (min … max):    47.1 ms …  47.8 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 8 2 5000
+  Time (mean ± σ):      63.5 ms ±   0.3 ms    [User: 2915.2 ms, System: 5.7 ms]
+  Range (min … max):    63.3 ms …  63.8 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 16 2 5000
+  Time (mean ± σ):     101.2 ms ±   8.2 ms    [User: 4733.8 ms, System: 20.4 ms]
+  Range (min … max):    91.9 ms … 107.3 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 32 2 5000
+  Time (mean ± σ):     204.8 ms ±   4.8 ms    [User: 9664.2 ms, System: 16.5 ms]
+  Range (min … max):   199.2 ms … 207.7 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 64 2 5000
+  Time (mean ± σ):     549.6 ms ±   1.1 ms    [User: 26140.0 ms, System: 7.6 ms]
+  Range (min … max):   548.4 ms … 550.7 ms    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 128 2 5000
+  Time (mean ± σ):      1.913 s ±  0.002 s    [User: 90.937 s, System: 0.011 s]
+  Range (min … max):    1.911 s …  1.914 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 256 2 5000
+  Time (mean ± σ):      7.092 s ±  0.005 s    [User: 337.359 s, System: 0.024 s]
+  Range (min … max):    7.087 s …  7.097 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 512 2 5000
+  Time (mean ± σ):     29.408 s ±  0.161 s    [User: 1396.497 s, System: 0.071 s]
+  Range (min … max):   29.229 s … 29.543 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 1024 2 5000
+  Time (mean ± σ):     114.744 s ±  0.065 s    [User: 5451.288 s, System: 0.167 s]
+  Range (min … max):   114.683 s … 114.812 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 2048 2 5000
+  Time (mean ± σ):     455.989 s ±  0.039 s    [User: 21652.635 s, System: 0.546 s]
+  Range (min … max):   455.956 s … 456.032 s    3 runs
+ 
+Benchmark 1: ../pde/partdiff-row 24 2 4096 2 5000
+  Time (mean ± σ):     1813.238 s ±  0.465 s    [User: 86095.202 s, System: 1.870 s]
+  Range (min … max):   1812.734 s … 1813.649 s    3 runs
+ 
