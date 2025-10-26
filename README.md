@@ -1,1 +1,1 @@
-This space contains projects developed during my Master's studies
+This workspace contains various implemented projects and technical solutions.
